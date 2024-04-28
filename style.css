@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+body {
+  background-color: black;
+  color: white;
+  font-family: Raleway;
+  margin: 100px 60px 0;
+}
+img {
+  max-height: 500px;
+  width: auto;
+  position: relative;
+  top: -150px;
+  border: 3px dashed #19bce6;
+}
+section {
+  display: flex;
+}
+section > * {
+  width: 50%;
+}
+h1 {
+  font-size: 60px;
+  -webkit-text-stroke: 2px #19bce6;
+  color: transparent;
+}
+p {
+  line-height: 40px;
+  padding-right: 30px;
+}
+.display {
+  display: block;
+}
+.buttons {
+  width: 30%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: start;
+  column-gap: 20px;
+  margin: 50px 0;
+}
+.buttons button {
+  border: none;
+  position: relative;
+  display: block;
+  padding: 4px 0;
+  font-weight: 700;
+  font-size: 3rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-text-stroke: 2px #19bce6;
+  background: linear-gradient(#19bce6 0 100%) left/0 no-repeat;
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  transition: 0.5s linear;
+}
+.buttons button:hover {
+  background-size: 100%;
+}
+#cw {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
